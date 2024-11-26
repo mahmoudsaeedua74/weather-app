@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css style/all.min.css">
+    <link rel="stylesheet" href="./css style/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css style/style.css">
+    <link rel="stylesheet" href="./css style/queries.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="site-conten text-capitalize">
+    
+        <nav class="navbar nav-bar  navbar-expand-lg   p-5">
+            <div class="container d-flex justify-content-between">
+                <a href="index.html" class="text-white  d-flex gap-2">
+                    <img src="./image/logo.png" class="img-logo me-3" alt="this is image of loge">
+                    <div class="logo-contet d-inline-block ">
+                        <h1>weather</h1>
+                        <small>taglin goes here </small>
+                    </div>
+                </a>        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" ></i>
+              </button>
+              <div class="collapse navbar-collapse main-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-sm-3">
+                    <li class="menu-item px-4 py-lg-1 py-3  rounded-pill active">
+                        <a href="#home">home</a>
+                    </li>
+                    <li class="menu-item px-4 py-lg-1 py-3  rounded-pill">
+                        <a href="#news">news</a>
+                    </li>
+                    <li class="menu-item px-4 py-lg-1 py-3  rounded-pill">
+                        <a href="#hLivecamerasome">Live cameras
+                        </a>
+                    </li>
+                    <li class="menu-item px-4 py-lg-1 py-3  rounded-pill">
+                        <a href="#Photos">Photos</a>
+                    </li>
+                    <li class="menu-item px-4 py-lg-1 py-3  rounded-pill">
+                        <a href="#Contact">Contact</a>
+                    </li>
+              
+              </div>
+            </div>
+          </nav>
+
+        <section class="search ">
+            <div class="container form-info rounded-pill">
+                <form class="d-flex justify-content-center justify-content-between">
+                    <input type="text" class="bg-transparent border-0 w-100 searchText " placeholder="Find your location..."
+                        id="search">
+                    <input type="button" class="" value="Find" id="submit">
+                </form>
+            </div>
+        </section>
+        <section class="table-weather position-relative ">
+            <div class="container three-day">
+                <div class=" row  overflow-hidden rounded-3">
+                    <div class="first-day col-lg-4 p-0">
+                        <header class="dayone d-flex justify-content-between p-2">
+                            <div class="day-one"></div>
+                            <div class="day-one-dat"></div>
+                        </header>
+                      <section class="body-day p-4">
+                        <div class="content-day">
+                            <div class="city fs-4"></div>
+                            <div class="degree  d-md-flex  d-lg-block  ">
+                                <div class="degrees-one-celsius"><p></p></div>
+                                <div class="footer-sun ">
+                                    <img  class="icon"  src="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="climate-is">sunny</div>
+                        <div class="climate-spead d-flex gap-3">
+                            <span>
+                                <i class="fa-solid fs-5 fa-umbrella"></i>
+                                20%
+                            </span>
+                            <span>
+                                <i class="fa-solid  fs-5  fa-wind"></i>
+                                18km\h
+                            </span>
+                            <span>
+                                <i class="fa-regular  fs-5  fa-compass"></i>
+                                East
+                            </span>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="second-day col-lg-4 p-0">
+                        <header class="dayone text-center p-2">
+                            <div class="day-two"></div>
+                        </header>
+                      <section class="body-day p-4">
+                        <div class="content-day text-center">
+                            <div class="footer-sun">
+                                <img  class="icon" src="">
+                            </div>
+                            <div class="degree">
+                                <div class="degrees-two-celsius"></div>
+                            </div>
+                            <div class="degreeTwo">
+                                <div class="degrees-celsius-second"></div>
+                            </div>
+                            <div class="climate-is">sunny</div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="third-day col-lg-4 p-0">
+                        <header class="dayone text-center p-2">
+                            <div class="day-three"></div>
+                        </header>
+                      <section class="body-day p-4">
+                        <div class="content-day text-center">
+                            <div class="footer-sun ">
+                                <img  class="icon" src="">
+                            </div>
+                            <div class="degree">
+                                <div class="degrees-three-celsius"></div>
+                            </div>
+                            <div class="degreeTwo">
+                                <div class="degrees-celsius-second-Tow"></div>
+                            </div>
+                            <div class="climate-is">sunny</div>
+                        </div>
+                      </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

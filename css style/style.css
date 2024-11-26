@@ -1,0 +1,154 @@
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar .logo-contet h1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.navbar-toggler {
+    border: transparent;
+}
+.navbar-toggler i{
+    color: #fff;
+}
+.navbar-toggler:focus {
+    border: transparent;
+    box-shadow: none;
+ 
+}
+.nav-bar .logo-contet small {
+    font-size: 10px;
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+ul li.menu-item {
+    border: 2px solid  transparent;
+    border-radius: 30px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+ul li.menu-item:hover {
+    border:solid #009ad8 2px;
+    color: #009ad8 !important;
+}
+ul li.menu-item:hover a{
+    color: #009ad8;
+}
+ul li.menu-item.active{
+    border: 2px solid   #009ad8 ;
+    border-radius: 30px;
+    color: #009AD8 !important;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+ul li.menu-item.active a{
+    color: #009AD8 !important;
+
+}
+
+a img{
+    width: 64px;
+    height: 34px;
+}
+.main-nav .menu-item a{
+    font-size: 14px;
+}
+
+section.search {
+    background-image: url(../image/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.form-info {
+    background-color: #1e202b;
+    padding: 5px 5px 5px 15px
+}
+input[type="button"] {
+    background-color: #009AD8;
+    border: 0;
+    color: #fff;
+    padding: 11px 40px;
+    border-radius: 20px;
+}
+input[type="text"] {
+    color: white ;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+
+.dayone{
+    background-color: #2D303D;
+}
+.first-day , .third-day{
+    background-color: #323544;
+}
+div.degree .degrees-one-celsius{
+    font-size: 90px;
+    color: white;
+    font-weight: 700;
+}
+div.degree .footer-sun img{
+    width: 90px;
+    height: 90px;
+}
+.climate-is{
+    color: #009ad8;
+    margin-bottom: 20px ;
+}
+div.climate-spead span {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+div.second-day header.dayone  {
+background-color: #222530;
+}
+div.second-day {
+    background-color: #262936;
+}
+div.second-day section.body-day div.content-day .degree div,
+div.third-day section.body-day div.content-day .degree div
+{
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 700;
+}
+div.second-day section.body-day div.content-day img,
+div.third-day section.body-day div.content-day img
+ {
+    width: 48px;
+    height: 49px;
+    margin-block: 1.5rem;
+}
+div.second-day section .degreeTwo ,
+div.third-day section .degreeTwo 
+{
+    font-size: 1.1428571429em;
+    color: #bfc1c8;
+    margin-bottom: 1.2rem;
+    margin-top: .3rem;
+}
+
+.three-day{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -30%);
+}
